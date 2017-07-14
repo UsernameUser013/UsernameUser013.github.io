@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+ 
+ p {
+     color: White;
+ }
+ 
+ P {
+	 font-size: 30px;
+	 text-align: center;
+	 font-weight: bold;
+ }
+ 
+ h1 {
+	 font-size: 25px;
+	 color: black;
+	 text-align: center;
+     margin: 25px;
+ }
+ h1, p {
+	 font-family: raleway;
+ }
+ 
+  #box {
+  width: 300px;
+  height: 180px;
+  background-color: lightgrey;
+  animation: magic 2s alternate;
+  animation-iteration-count: infinite;
+  }
+  #box2 {
+	  width: 800px;
+	  height: 180px;
+	  background-color: lightgrey;
+	  position:relative; 
+	  left: 30%;
+	  bottom: 180px;
+	  animation: magic 3s alternate;
+	  animation-iteration-count: infinite;
+  }
+  
+   
+@keyframes magic {
+	0% {background-color: white;}
+	100% {background-color: lightgrey;}
+}
+
+a {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+div {
+	color: white;
+}
